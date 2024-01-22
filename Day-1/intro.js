@@ -13,3 +13,21 @@ firstName = "Arjun";
 let lastName = "Arasu";
 let fullName = firstName + " " + lastName;
 console.log("Hello, My name is" + " " + fullName);
+const PI = 3.14;
+let a = 10;
+let myAmount = a * PI;
+console.log(myAmount);
+// boolean
+let amIAdult = true;
+console.log(
+  "Hello, My name is" +
+    " " +
+    fullName +
+    " " +
+    "I have ₹" +
+    " " +
+    myAmount +
+    " " +
+    "and I am an adult:" +
+    amIAdult
+);
