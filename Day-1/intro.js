@@ -8,6 +8,12 @@ console.log("Hello World");
     alert(sum);
 */
 // variables
+// Initialize a variable
+let myScore;
+myScore = 30;
+// Assigning a variable
+let opponentScore = 15;
+console.log("Arjun your score is" + " " + myScore);
 let firstName;
 firstName = "Arjun";
 let lastName = "Arasu";
@@ -31,3 +37,11 @@ console.log(
     "and I am an adult:" +
     amIAdult
 );
+// Booleans
+let iAmAwesome = true;
+console.log(typeof myAge);
+// Javascript is a dynamically typed language
+// Constant Variables
+const pi = 3.14;
+// Variables that does not change
+// Const cannot be reassigned
