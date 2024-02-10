@@ -1,4 +1,3 @@
-/*
 function isPositive(num) {
   return num > 0;
 }
@@ -19,7 +18,6 @@ function greet(name = "There") {
 }
 greet();
 greet("Arjun");
-*/
 // Recursion
 let findFactorial = (n) => {
   if (n == 1) return 1;
