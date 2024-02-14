@@ -1,4 +1,4 @@
-function greetConsole(name) {
+/*function greetConsole(name) {
   console.log("Hello", name);
 }
 function greetHeading(name) {
@@ -8,4 +8,24 @@ function greetHeading(name) {
 function greet(callback, name) {
   callback(name);
 }
+greet(greetConsole, "Arjun");*/
+/*
+function greetConsole(name) {
+  console.log("hello", name);
+}
+function greetHeading(name) {
+  const heading = document.querySelector("h1");
+  heading.innerHTML = "Hello " + name;
+}
+function greet(callback, name) {
+  callback(name);
+}
 greet(greetConsole("Arjun"));
+greet(greetHeading("Arjun"));
+*/
+// Foreach Method
+let array = ["Arjun", "Dharini", "Samyuktha"];
+let printVal = (val) => {
+  console.log(val.toUpperCase());
+};
+array.forEach(printVal);
